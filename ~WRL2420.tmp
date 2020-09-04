@@ -41,7 +41,6 @@ target="index_files/props026.xml">
  <w:WordDocument>
   <w:DisplayBackgroundShape/>
   <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:AttachedTemplate HRef=""></w:AttachedTemplate>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
@@ -924,7 +923,7 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	margin-left:.5in;
 	text-indent:-.25in;
 	mso-pagination:widow-orphan;
-	mso-list:l2 level1 lfo2;
+	mso-list:l1 level1 lfo2;
 	font-size:10.0pt;
 	mso-bidi-font-size:12.0pt;
 	font-family:"Calibri",sans-serif;
@@ -1125,9 +1124,6 @@ p.Contact, li.Contact, div.Contact
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -1159,15 +1155,14 @@ div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
  @list l0
-	{mso-list-id:80029497;
+	{mso-list-id:284968742;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-493463258 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+	mso-list-template-ids:-184899404 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
 @list l0:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	margin-left:.75in;
 	text-indent:-.25in;
 	font-family:Symbol;}
 @list l0:level2
@@ -1175,7 +1170,6 @@ div.WordSection1
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	margin-left:1.25in;
 	text-indent:-.25in;
 	font-family:"Courier New";}
 @list l0:level3
@@ -1183,7 +1177,6 @@ div.WordSection1
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	margin-left:1.75in;
 	text-indent:-.25in;
 	font-family:Wingdings;}
 @list l0:level4
@@ -1191,7 +1184,6 @@ div.WordSection1
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	margin-left:2.25in;
 	text-indent:-.25in;
 	font-family:Symbol;}
 @list l0:level5
@@ -1199,7 +1191,6 @@ div.WordSection1
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	margin-left:2.75in;
 	text-indent:-.25in;
 	font-family:"Courier New";}
 @list l0:level6
@@ -1207,7 +1198,6 @@ div.WordSection1
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	margin-left:3.25in;
 	text-indent:-.25in;
 	font-family:Wingdings;}
 @list l0:level7
@@ -1215,7 +1205,6 @@ div.WordSection1
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	margin-left:3.75in;
 	text-indent:-.25in;
 	font-family:Symbol;}
 @list l0:level8
@@ -1223,7 +1212,6 @@ div.WordSection1
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	margin-left:4.25in;
 	text-indent:-.25in;
 	font-family:"Courier New";}
 @list l0:level9
@@ -1231,90 +1219,13 @@ div.WordSection1
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
-	margin-left:4.75in;
 	text-indent:-.25in;
 	font-family:Wingdings;}
 @list l1
-	{mso-list-id:284968742;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-184899404 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l1:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:.75in;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l1:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.25in;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l1:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:1.75in;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l1:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.25in;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l1:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:2.75in;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l1:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.25in;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l1:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:3.75in;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l1:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.25in;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l1:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:4.75in;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l2
 	{mso-list-id:288249045;
 	mso-list-type:hybrid;
 	mso-list-template-ids:1795195304 1283626216 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l2:level1
+@list l1:level1
 	{mso-level-number-format:bullet;
 	mso-level-style-link:"List Paragraph";
 	mso-level-text:\F0B7;
@@ -1324,56 +1235,56 @@ div.WordSection1
 	font-family:Symbol;
 	color:#666666;
 	mso-themecolor:accent4;}
-@list l2:level2
+@list l1:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
 	font-family:"Courier New";}
-@list l2:level3
+@list l1:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
 	font-family:Wingdings;}
-@list l2:level4
+@list l1:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
 	font-family:Symbol;}
-@list l2:level5
+@list l1:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
 	font-family:"Courier New";}
-@list l2:level6
+@list l1:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
 	font-family:Wingdings;}
-@list l2:level7
+@list l1:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
 	font-family:Symbol;}
-@list l2:level8
+@list l1:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
 	font-family:"Courier New";}
-@list l2:level9
+@list l1:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
 	mso-level-tab-stop:none;
@@ -1442,17 +1353,17 @@ table.MsoTableGrid
 <div class=WordSection1>
 
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
- summary="Layout table" width=1373 style='margin-left:-.5in;border-collapse:
+ summary="Layout table" width=1194 style='margin-left:-.5in;border-collapse:
  collapse;mso-table-layout-alt:fixed;mso-yfti-tbllook:1536;mso-padding-alt:
  0in 5.75pt 0in 5.75pt'>
  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:59.4pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:59.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=319 colspan=3 rowspan=3 valign=top style='width:239.55pt;
-  padding:0in 0in 0in 0in;height:59.4pt'>
+  <td width=312 colspan=3 rowspan=3 valign=top style='width:3.25in;padding:
+  0in 0in 0in 0in;height:59.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
    coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
@@ -1479,17 +1390,17 @@ table.MsoTableGrid
    style='width:117pt;height:156pt;visibility:visible;mso-wrap-style:square'>
    <v:imagedata src="index_files/image002.jpg" o:title="A person wearing a suit and tie&#10;&#10;Description automatically generated"/>
   </v:shape><![endif]--><![if !vml]><img width=156 height=208
-  src="index_files/image001.jpg"
+  src="index_files/image004.jpg"
   alt="A person wearing a suit and tie&#10;&#10;Description automatically generated"
   v:shapes="Picture_x0020_7"><![endif]></span></p>
   <p class=MsoNormal align=center style='text-align:center'><b><i><span
   style='font-size:20.0pt'>Professional Portfolio<o:p></o:p></span></i></b></p>
   </td>
-  <td width=28 rowspan=11 valign=top style='width:21.1pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=28 rowspan=11 valign=top style='width:21.2pt;padding:0in 5.75pt 0in 5.75pt;
   height:59.4pt'>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=758 colspan=2 valign=top style='width:568.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=584 colspan=2 valign=top style='width:437.8pt;padding:0in 5.75pt 0in 5.75pt;
   height:59.4pt'>
   <div style='mso-element:para-border-div;border:none;border-bottom:solid #2C567A 3.0pt;
   mso-border-bottom-themecolor:accent1;padding:0in 0in 8.0pt 0in'>
@@ -1498,222 +1409,98 @@ table.MsoTableGrid
   </td>
  </tr>
  <tr style='mso-yfti-irow:1;height:4.35pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:4.35pt'>
   <p class=MsoNormal style='margin-bottom:0in'><b><i><span style='font-size:
   20.0pt'><o:p>&nbsp;</o:p></span></i></b></p>
   </td>
-  <td width=633 valign=bottom style='width:474.95pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=458 valign=bottom style='width:343.3pt;padding:0in 5.75pt 0in 5.75pt;
   height:4.35pt'>
-  <p class=Contact><b><span style='font-size:12.0pt'>The following is a sample
-  of my professional portfolio.<o:p></o:p></span></b></p>
-  <p class=Contact><span style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
-  <p class=Contact><span style='font-size:12.0pt'>Experienced Corporate
-  Instructional Designer, Learning Management Systems (LMS) Administrator,
-  Global Corporate Talent Manager, OC Legal-Compliance-Technical Trainer,
-  Organizational Agility, Process Improvement, Agile Learning Project and
-  Portfolio Manager and Transformation Manager. eLearning Program Management,
-  Curriculum Development, Needs Analysis, Adult Learning Theories, ADDIE, ISD,
-  Executive and Leadership Coaching/Mentoring, Succession Management, Training
-  Evaluation, Train-the-Trainer, Micro-Learning, and Vendor Management.
-  Cybersecurity Risk Management, Threat and Vulnerability Reduction and,
-  Incident Response Capability Training. Fully Bilingual (<span class=GramE>English-Spanish</span>).</span></p>
+  <p class=Contact>The following is a sample of my professional portfolio.</p>
   </td>
-  <td width=125 valign=bottom style='width:1.3in;padding:0in 5.75pt 0in 5.75pt;
+  <td width=126 valign=bottom style='width:94.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:4.35pt'>
   <p class=Contact><o:p>&nbsp;</o:p></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:2;height:35.25pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:35.25pt'>
   <p class=MsoNormal style='margin-bottom:0in'><b><i><span style='font-size:
   20.0pt'><o:p>&nbsp;</o:p></span></i></b></p>
   </td>
-  <td width=758 colspan=2 rowspan=10 valign=top style='width:568.4pt;
+  <td width=584 colspan=2 rowspan=10 valign=top style='width:437.8pt;
   padding:0in 5.75pt 0in 5.75pt;height:35.25pt'>
   <div style='mso-element:para-border-div;border:none;border-top:solid #2C567A 3.0pt;
   mso-border-top-themecolor:accent1;padding:8.0pt 0in 0in 0in'>
   <h1>SCORM Learning Samples</h1>
   </div>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l0 level1 lfo5'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol;color:blue'><span style='mso-list:Ignore'>·<span
+  <p class=MsoListParagraph style='mso-list:l0 level1 lfo4'><![if !supportLists]><span
+  class=MsoHyperlink><span style='font-size:12.0pt;font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;text-decoration:
+  none;text-underline:none'><span style='mso-list:Ignore'>·<span
   style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><u><span style='font-size:12.0pt;color:blue'><a
-  href="https://miguelmorales728.github.io/Sample1-SCORM/Player.html">Sample 1 –
-  Articulate Storyline SCORM Content</a><o:p></o:p></span></u></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l0 level1 lfo5'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><u><span style='font-size:12.0pt'>Sample 2 - <o:p></o:p></span></u></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l0 level1 lfo5'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><u><span style='font-size:12.0pt'>Sample 2 - <o:p></o:p></span></u></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l0 level1 lfo5'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><u><span style='font-size:12.0pt'>Sample 2 - <o:p></o:p></span></u></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l0 level1 lfo5'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><u><span style='font-size:12.0pt'>Sample 2 - <o:p></o:p></span></u></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l0 level1 lfo5'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><u><span style='font-size:12.0pt'>Sample 2 - <o:p></o:p></span></u></p>
-  <p class=MsoListParagraph style='margin-left:.75in;text-indent:0in;
-  mso-list:none'><span style='font-size:12.0pt'><a
+  </span></span></span></span><![endif]><span style='font-size:12.0pt'><a
   href="https://miguelmorales728.github.io/Sample1-SCORM/player.html"
-  target="_blank"><o:p></o:p></a></span></p>
+  target="_blank">Sample 1 – Articulate Storyline SCORM Content<o:p></o:p></a></span></p>
   <div style='mso-element:para-border-div;border:none;border-top:solid #2C567A 3.0pt;
   mso-border-top-themecolor:accent1;padding:8.0pt 0in 0in 0in'>
   <h1>Training Quick Reference Guides</h1>
   </div>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+  <p class=MsoListParagraph style='mso-list:l0 level1 lfo4'><![if !supportLists]><span
   style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
   mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
   style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Aasdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdfasd</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='text-indent:0in;mso-list:none'><span
-  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  12.0pt'>aasdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
   <div style='mso-element:para-border-div;border:none;border-top:solid #2C567A 3.0pt;
   mso-border-top-themecolor:accent1;padding:8.0pt 0in 0in 0in'>
   <h1>Instructional Videos</h1>
   </div>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+  <p class=MsoListParagraph style='mso-list:l0 level1 lfo4'><![if !supportLists]><span
   style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
   mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
   style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdfas</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdfsda</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdfasd</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdfasd</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdfs</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='text-indent:0in;mso-list:none'><span
-  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  12.0pt'>asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
   <div style='mso-element:para-border-div;border:none;border-top:solid #2C567A 3.0pt;
   mso-border-top-themecolor:accent1;padding:8.0pt 0in 0in 0in'>
   <h1>Sample Training Plans</h1>
   </div>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+  <p class=MsoListParagraph style='mso-list:l0 level1 lfo4'><![if !supportLists]><span
   style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
   mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
   style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdfas</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='margin-left:.75in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
-  style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-  mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span class=SpellE><span style='font-size:
-  12.0pt'>Asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
-  <p class=MsoListParagraph style='text-indent:0in;mso-list:none'><span
-  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  12.0pt'>asdfasdf</span></span><span style='font-size:12.0pt'><o:p></o:p></span></p>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:3;height:58.2pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:58.2pt'>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=48 valign=top style='width:35.75pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=48 valign=top style='width:.5in;padding:0in 5.75pt 0in 5.75pt;
   height:58.2pt'>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=272 colspan=2 valign=top style='width:203.8pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=264 colspan=2 valign=top style='width:2.75in;padding:0in 5.75pt 0in 5.75pt;
   height:58.2pt'>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:4;height:27.15pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:27.15pt'>
   <p class=Contact><span style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=48 valign=top style='width:35.75pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=48 valign=top style='width:.5in;padding:0in 5.75pt 0in 5.75pt;
   height:27.15pt'>
   <p class=Contact><span style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=42 style='width:31.5pt;padding:0in 0in 0in 0in;height:27.15pt'>
+  <td width=42 style='width:31.55pt;padding:0in 0in 0in 0in;height:27.15pt'>
   <p class=Contact><!--[if mso & !supportInlineShapes & supportFields]><span
   style='mso-element:field-begin;mso-field-lock:yes'></span><span
   style='mso-spacerun:yes'> </span>SHAPE <span
@@ -2341,41 +2128,42 @@ AAAAAAAAAAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAAD4AgAAAAA=
     <v:imagedata src="index_files/image003.png" o:title="GPS icon"/>
    </v:shape><w:wrap type="none"/>
    <w:anchorlock/>
-  </v:group><![endif]--><![if !vml]><img width=37 height=36
-  src="index_files/image011.png" alt="gps icon" v:shapes="Group_x0020_21 Freeform_x003a__x0020_Shape_x0020_142 Picture_x0020_23"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
+  </v:group><![endif]--><![if !vml]><img width=36 height=36
+  src="index_files/image006.png" alt="gps icon" v:shapes="Group_x0020_21 Freeform_x003a__x0020_Shape_x0020_142 Picture_x0020_23"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
    id="_x0000_i1028" type="#_x0000_t75" style='width:26.55pt;height:26.25pt'>
    <v:imagedata croptop="-65520f" cropbottom="65520f"/>
   </v:shape><span style='mso-element:field-end'></span><![endif]--></p>
   </td>
-  <td width=230 style='width:172.3pt;padding:0in 5.75pt 0in 5.75pt;height:27.15pt'>
+  <td width=222 style='width:166.45pt;padding:0in 5.75pt 0in 5.75pt;height:
+  27.15pt'>
   <p class=Information>2647 Coopers Post Ln</p>
   <p class=Information>Sugar Land, TX 77478</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:5;height:9.15pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:9.15pt'>
   <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=48 valign=top style='width:35.75pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=48 valign=top style='width:.5in;padding:0in 5.75pt 0in 5.75pt;
   height:9.15pt'>
   <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=272 colspan=2 style='width:203.8pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=264 colspan=2 style='width:2.75in;padding:0in 5.75pt 0in 5.75pt;
   height:9.15pt'>
   <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:6;height:31.2pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:31.2pt'>
   <p class=Contact><span style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=48 valign=top style='width:35.75pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=48 valign=top style='width:.5in;padding:0in 5.75pt 0in 5.75pt;
   height:31.2pt'>
   <p class=Contact><span style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=42 style='width:31.5pt;padding:0in 0in 0in 0in;height:31.2pt'>
+  <td width=42 style='width:31.55pt;padding:0in 0in 0in 0in;height:31.2pt'>
   <p class=Contact><!--[if mso & !supportInlineShapes & supportFields]><span
   style='mso-element:field-begin;mso-field-lock:yes'></span><span
   style='mso-spacerun:yes'> </span>SHAPE <span
@@ -2605,40 +2393,41 @@ AAAAAAAAAAAAAAAHAgAAZHJzL2Rvd25yZXYueG1sUEsFBgAAAAADAAMAtwAAAPcCAAAAAA==
     <v:imagedata src="index_files/image005.png" o:title="Phone icon"/>
    </v:shape><w:wrap type="none"/>
    <w:anchorlock/>
-  </v:group><![endif]--><![if !vml]><img width=37 height=36
-  src="index_files/image012.png" alt="phone icon" v:shapes="Group_x0020_22 Freeform_x003a__x0020_Shape_x0020_162 Picture_x0020_28"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
+  </v:group><![endif]--><![if !vml]><img width=36 height=37
+  src="index_files/image008.png" alt="phone icon" v:shapes="Group_x0020_22 Freeform_x003a__x0020_Shape_x0020_162 Picture_x0020_28"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
    id="_x0000_i1027" type="#_x0000_t75" style='width:26.6pt;height:26.55pt'>
    <v:imagedata croptop="-65520f" cropbottom="65520f"/>
   </v:shape><span style='mso-element:field-end'></span><![endif]--></p>
   </td>
-  <td width=230 style='width:172.3pt;padding:0in 5.75pt 0in 5.75pt;height:31.2pt'>
+  <td width=222 style='width:166.45pt;padding:0in 5.75pt 0in 5.75pt;height:
+  31.2pt'>
   <p class=Information>713-256-3571</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:7;height:9.15pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:9.15pt'>
   <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=48 valign=top style='width:35.75pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=48 valign=top style='width:.5in;padding:0in 5.75pt 0in 5.75pt;
   height:9.15pt'>
   <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=272 colspan=2 style='width:203.8pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=264 colspan=2 style='width:2.75in;padding:0in 5.75pt 0in 5.75pt;
   height:9.15pt'>
   <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:8;height:31.65pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:31.65pt'>
   <p class=Contact><span style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=48 valign=top style='width:35.75pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=48 valign=top style='width:.5in;padding:0in 5.75pt 0in 5.75pt;
   height:31.65pt'>
   <p class=Contact><span style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=42 style='width:31.5pt;padding:0in 0in 0in 0in;height:31.65pt'>
+  <td width=42 style='width:31.55pt;padding:0in 0in 0in 0in;height:31.65pt'>
   <p class=Contact><!--[if mso & !supportInlineShapes & supportFields]><span
   style='mso-element:field-begin;mso-field-lock:yes'></span><span
   style='mso-spacerun:yes'> </span>SHAPE <span
@@ -2864,41 +2653,42 @@ AAAAAAAAAAAAAAcCAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAMAAwC3AAAA9gIAAAAA
     <v:imagedata src="index_files/image007.png" o:title="Email icon"/>
    </v:shape><w:wrap type="none"/>
    <w:anchorlock/>
-  </v:group><![endif]--><![if !vml]><img width=37 height=38
-  src="index_files/image013.png" alt="email icon" v:shapes="Group_x0020_24 Freeform_x003a__x0020_Shape_x0020_273 Picture_x0020_32"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
+  </v:group><![endif]--><![if !vml]><img width=36 height=38
+  src="index_files/image010.png" alt="email icon" v:shapes="Group_x0020_24 Freeform_x003a__x0020_Shape_x0020_273 Picture_x0020_32"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
    id="_x0000_i1026" type="#_x0000_t75" style='width:26.65pt;height:27.25pt'>
    <v:imagedata croptop="-65520f" cropbottom="65520f"/>
   </v:shape><span style='mso-element:field-end'></span><![endif]--></p>
   </td>
-  <td width=230 style='width:172.3pt;padding:0in 5.75pt 0in 5.75pt;height:31.65pt'>
+  <td width=222 style='width:166.45pt;padding:0in 5.75pt 0in 5.75pt;height:
+  31.65pt'>
   <p class=Information><a href="mailto:miguelmorales728@hotmail.com">miguelmorales728@hotmail.com</a>
   </p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:9;height:8.7pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:8.7pt'>
   <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=48 valign=top style='width:35.75pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=48 valign=top style='width:.5in;padding:0in 5.75pt 0in 5.75pt;
   height:8.7pt'>
   <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=272 colspan=2 style='width:203.8pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=264 colspan=2 style='width:2.75in;padding:0in 5.75pt 0in 5.75pt;
   height:8.7pt'>
   <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:10;height:31.65pt'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:31.65pt'>
   <p class=Contact><span style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=48 valign=top style='width:35.75pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=48 valign=top style='width:.5in;padding:0in 5.75pt 0in 5.75pt;
   height:31.65pt'>
   <p class=Contact><span style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=42 style='width:31.5pt;padding:0in 0in 0in 0in;height:31.65pt'>
+  <td width=42 style='width:31.55pt;padding:0in 0in 0in 0in;height:31.65pt'>
   <p class=Contact><!--[if mso & !supportInlineShapes & supportFields]><span
   style='mso-element:field-begin;mso-field-lock:yes'></span><span
   style='mso-spacerun:yes'> </span>SHAPE <span
@@ -3126,30 +2916,31 @@ AAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAADyAgAAAAA=
     <v:imagedata src="index_files/image009.png" o:title="website icon"/>
    </v:shape><w:wrap type="none"/>
    <w:anchorlock/>
-  </v:group><![endif]--><![if !vml]><img width=37 height=37
-  src="index_files/image014.png" alt="website icon" v:shapes="Group_x0020_23 Freeform_x003a__x0020_Shape_x0020_273 Picture_x0020_36"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
+  </v:group><![endif]--><![if !vml]><img width=36 height=37
+  src="index_files/image015.png" alt="website icon" v:shapes="Group_x0020_23 Freeform_x003a__x0020_Shape_x0020_273 Picture_x0020_36"><![endif]><!--[if mso & !supportInlineShapes & supportFields]><v:shape
    id="_x0000_i1025" type="#_x0000_t75" style='width:26.65pt;height:27.25pt'>
    <v:imagedata croptop="-65520f" cropbottom="65520f"/>
   </v:shape><span style='mso-element:field-end'></span><![endif]--></p>
   </td>
-  <td width=230 style='width:172.3pt;padding:0in 5.75pt 0in 5.75pt;height:31.65pt'>
+  <td width=222 style='width:166.45pt;padding:0in 5.75pt 0in 5.75pt;height:
+  31.65pt'>
   <p class=Information><a href="https://www.linkedin.com/in/miguel77">https://www.linkedin.com/in/miguel77</a></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:11;mso-yfti-lastrow:yes;height:1.7in'>
-  <td width=267 valign=top style='width:200.4pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=270 valign=top style='width:202.5pt;padding:0in 5.75pt 0in 5.75pt;
   height:1.7in'>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=48 valign=top style='width:35.75pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=48 valign=top style='width:.5in;padding:0in 5.75pt 0in 5.75pt;
   height:1.7in'>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=272 colspan=2 valign=top style='width:203.8pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=264 colspan=2 valign=top style='width:2.75in;padding:0in 5.75pt 0in 5.75pt;
   height:1.7in'>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
-  <td width=28 valign=top style='width:21.1pt;padding:0in 5.75pt 0in 5.75pt;
+  <td width=28 valign=top style='width:21.2pt;padding:0in 5.75pt 0in 5.75pt;
   height:1.7in'>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
