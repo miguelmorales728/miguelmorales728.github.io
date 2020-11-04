@@ -8,20 +8,20 @@
     <general>
         
         <title>
-            <langstring>M&amp;A_Central_eLearning_Course</langstring>
+            <langstring>Captivate E-Learning Course</langstring>
         </title>
         
         <catalogentry>
             <catalog>Catalog</catalog>
             <entry>
-                <langstring>MA_Central_eLearning_Course</langstring>
+                <langstring>Course_ID1</langstring>
             </entry>
         </catalogentry>
         
         <language>en-US</language>
 
         <description>
-					<langstring>This is the M&amp;A Central eLearning Course. This course covers all the necessary concepts on how to use the Integration Management System during the Discovery Phase.  It includes a presentation and a simulation.</langstring>
+					<langstring>Course Description.</langstring>
 		</description>
         
         
@@ -54,10 +54,10 @@
                 <vcard>
                     BEGIN:VCARD
                     VERSION:2.1
-                    FN: Author
-ORG: Company
-EMAIL;PREF;INTERNET: author@company.com
-URL:  www.company.com
+                    FN: Miguel Morales
+ORG: Chevron Information Technology Company
+EMAIL;PREF;INTERNET: miguel.morales@hotmail.com
+URL:  www.chevron.com
 
                     END:VCARD
                 </vcard>
@@ -77,7 +77,7 @@ URL:  www.company.com
                     BEGIN:VCARD
                     VERSION:2.1
                     FN:Adobe Captivate
-                    NOTE: version 9.0.1.320             
+                    NOTE: version 11.5.1.499             
                     URL: http://www.adobe.com/products/captivate.html
                     END:VCARD
                 </vcard>
@@ -169,7 +169,7 @@ END:VCARD
         </purpose>
         
         <description>
-            <langstring>This is the M&amp;A Central eLearning Course. This course covers all the necessary concepts on how to use the Integration Management System during the Discovery Phase.  It includes a presentation and a simulation.</langstring>
+            <langstring>Course Description.</langstring>
         </description>
         
         

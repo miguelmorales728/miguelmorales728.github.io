@@ -387,7 +387,7 @@ if(SCORM2004_APIFound(objAPITemp)){WriteToDebug("Found API in an opener - "+strD
 WriteToDebug("Looking in children - "+strDebugID);objAPITemp=SCORM2004_LookInChildren(wndLookIn);if(SCORM2004_APIFound(objAPITemp)){WriteToDebug("Found API in Children - "+strDebugID);return objAPITemp;}
 WriteToDebug("Didn't find API in this window - "+strDebugID);return null;}
 function SCORM2004_LookInChildren(wnd){WriteToDebug("SCORM2004_LookInChildren");var objAPITemp=null;var strDebugID="";strDebugID="Name="+wnd.name+", href="+wnd.location.href
-for(var i=0;i<wnd.frames.length;i++){WriteToDebug("Looking in child frame "+i);objAPITemp=wnd.frames[i].API_1484_11;if(SCORM2004_APIFound(objAPITemp)){WriteToDebug("Found API in child frame of "+strDebugID);return objAPITemp;}
+for(var i=0;i<wnd.frames.length;i++){WriteToDebug("Looking in child frame "+i);objAPITemp=null;try{objAPITemp=wnd.frames[i].API_1484_11;}catch(e){}if(SCORM2004_APIFound(objAPITemp)){WriteToDebug("Found API in child frame of "+strDebugID);return objAPITemp;}
 WriteToDebug("Looking in this child's children "+strDebugID);objAPITemp=SCORM2004_LookInChildren(wnd.frames[i]);if(SCORM2004_APIFound(objAPITemp)){WriteToDebug("API found in this child's children "+strDebugID);return objAPITemp;}}
 return null;}
 function SCORM2004_WindowHasOpener(wnd){WriteToDebug("In SCORM2004_WindowHasOpener");if((wnd.opener!=null)&&(wnd.opener!=wnd)&&(typeof(wnd.opener)!="undefined")){WriteToDebug("Window Does Have Opener");return true;}
@@ -628,7 +628,7 @@ if(SCORM_APIFound(objAPITemp)){WriteToDebug("Found API in an opener - "+strDebug
 WriteToDebug("Looking in children - "+strDebugID);objAPITemp=SCORM_LookInChildren(wndLookIn);if(SCORM_APIFound(objAPITemp)){WriteToDebug("Found API in Children - "+strDebugID);return objAPITemp;}
 WriteToDebug("Didn't find API in this window - "+strDebugID);return null;}
 function SCORM_LookInChildren(wnd){WriteToDebug("SCORM_LookInChildren");var objAPITemp=null;var strDebugID="";strDebugID="Name="+wnd.name+", href="+wnd.location.href
-for(var i=0;i<wnd.frames.length;i++){WriteToDebug("Looking in child frame "+i);objAPITemp=wnd.frames[i].API;if(SCORM_APIFound(objAPITemp)){WriteToDebug("Found API in child frame of "+strDebugID);return objAPITemp;}
+for(var i=0;i<wnd.frames.length;i++){WriteToDebug("Looking in child frame "+i);objAPITemp=null;try{objAPITemp=wnd.frames[i].API;}catch(e){}if(SCORM_APIFound(objAPITemp)){WriteToDebug("Found API in child frame of "+strDebugID);return objAPITemp;}
 WriteToDebug("Looking in this child's children "+strDebugID);objAPITemp=SCORM_LookInChildren(wnd.frames[i]);if(SCORM_APIFound(objAPITemp)){WriteToDebug("API found in this child's children "+strDebugID);return objAPITemp;}}
 return null;}
 function SCORM_WindowHasOpener(wnd){WriteToDebug("In SCORM_WindowHasOpener");if((wnd.opener!=null)&&(wnd.opener!=wnd)&&(typeof(wnd.opener)!="undefined")){WriteToDebug("Window Does Have Opener");return true;}

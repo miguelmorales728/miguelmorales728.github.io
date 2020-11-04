@@ -1,5 +1,5 @@
 var CONFIG = {
-				COURSETITLE			: "M&A Central Online Training",
+				COURSETITLE			: "EPM - Introduction to EPM for IT - Training",
 				FILENAME			: "index_scorm.html",
 				BGCOLOR				: "#f5f4f1",
 				FPVERSION			: "",
@@ -10,7 +10,7 @@ var CONFIG = {
 				RIGHTCLICKENABLED	: '',
 				SWFOBJ_ID			: 'Captivate',
 				SWFOBJ_NAME			: 'Captivate',
-				REDIRECT_URL		:  "http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash",
+				REDIRECT_URL		:  "https://get.adobe.com/flashplayer/",
 				NOSCRIPT_MSG		: "This course requires JavaScript to be enabled in your browser. Please enable JavaScript, then relaunch the course.",
                 SEAMLESS_TABBING    : ""
 			},
